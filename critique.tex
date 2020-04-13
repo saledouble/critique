@@ -1,0 +1,46 @@
+\documentclass[article,natbib=false]{acmart}
+
+\usepackage[backend=biber,style=ACM-Reference-Format,natbib,mincitenames=1,maxcitenames=2,bibencoding=utf8,maxbibnames=20,autocite=inline,sortcites,labelnumber]{biblatex}
+
+\renewcommand*{\multicitedelim}{\addcomma}
+
+\setcopyright{acmcopyright}
+\copyrightyear{2020}
+\acmYear{2020}
+%\acmDOI{10.1145/1122445.1122456}
+
+
+\begin{document}
+
+\title[Critique]{Critique of Hidden Technical Debt in Machine Learning Systems}
+
+\author{Yiming Tang}
+\orcid{} % chktex 8
+\affiliation{%
+  \institution{The Graduate Center, CUNY}
+  \country{USA}
+}
+\email{ytang3@gradcenter.cuny.edu}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+% \renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{machine learning, technical debt, software engineering}
+	
+\maketitle
+
+\input{content}
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.

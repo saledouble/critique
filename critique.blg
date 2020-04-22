@@ -1,5 +1,0 @@
-[0] Config.pm:304> INFO - This is Biber 2.13
-[0] Config.pm:307> INFO - Logfile is 'critique.blg'
-[26] biber:315> INFO - === Wed Apr 22, 2020, 10:27:15
-[165] Utils.pm:316> ERROR - Cannot find 'critique.bcf'!
-[165] Biber.pm:114> INFO - ERRORS: 1
